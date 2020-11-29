@@ -19,9 +19,9 @@
 		6F23614025743161004EE4D3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23613F25743161004EE4D3 /* TodayViewController.swift */; };
 		6F23614325743161004EE4D3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F23614125743161004EE4D3 /* MainInterface.storyboard */; };
 		6F23614725743161004EE4D3 /* HarryPotterLab_Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F23613A25743161004EE4D3 /* HarryPotterLab_Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6FB56DC1FBA2C7E9644002CA /* Pods_HarryPotterLab_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC641B2F5E602A95D57CB66 /* Pods_HarryPotterLab_iOS.framework */; };
+		6F23615025743553004EE4D3 /* HarryPotterLab_ui_kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */; };
+		6F23615125743553004EE4D3 /* HarryPotterLab_ui_kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7918360F78F220FD267A2BE3 /* Pods_HarryPotterLab_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2039658A812DF12C3C626C5 /* Pods_HarryPotterLab_iOSUITests.framework */; };
-		8CEC0D300ACFFFEBAD98CA55 /* Pods_HarryPotterLab_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9656C63BB143095E7A8868D0 /* Pods_HarryPotterLab_Widget.framework */; };
 		FCCC25C316CD376237C5522E /* Pods_HarryPotterLab_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +61,17 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F23615225743553004EE4D3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6F23615125743553004EE4D3 /* HarryPotterLab_ui_kit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +99,7 @@
 		6F23613F25743161004EE4D3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		6F23614225743161004EE4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		6F23614425743161004EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HarryPotterLab_ui_kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9656C63BB143095E7A8868D0 /* Pods_HarryPotterLab_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D44E7F4A65D456A4B87C8E8 /* Pods-HarryPotterLab_Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab_Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab_Widget/Pods-HarryPotterLab_Widget.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FB56DC1FBA2C7E9644002CA /* Pods_HarryPotterLab_iOS.framework in Frameworks */,
+				6F23615025743553004EE4D3 /* HarryPotterLab_ui_kit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F23613D25743161004EE4D3 /* NotificationCenter.framework in Frameworks */,
-				8CEC0D300ACFFFEBAD98CA55 /* Pods_HarryPotterLab_Widget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +204,7 @@
 		6F23613B25743161004EE4D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */,
 				6F23613C25743161004EE4D3 /* NotificationCenter.framework */,
 				FBC641B2F5E602A95D57CB66 /* Pods_HarryPotterLab_iOS.framework */,
 				77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */,
@@ -241,6 +253,7 @@
 				6F23614B25743163004EE4D3 /* Embed App Extensions */,
 				38B10A7A0DAAF8D3991C8591 /* [CP] Embed Pods Frameworks */,
 				9367398A5F439298F32BBAC0 /* [CP] Copy Pods Resources */,
+				6F23615225743553004EE4D3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

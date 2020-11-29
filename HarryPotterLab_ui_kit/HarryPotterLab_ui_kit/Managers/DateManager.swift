@@ -15,7 +15,7 @@ public enum DateFormat: String {
 
 public final class DateManager {
     
-    class func toString(from date: String, in format: DateFormat) -> Date {
+    public class func toDate(from date: String, in format: DateFormat) -> Date {
         
         let formatter = DateFormatter()
         formatter.dateFormat = format.rawValue

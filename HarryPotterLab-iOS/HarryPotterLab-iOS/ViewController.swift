@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HarryPotterLab_ui_kit
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .red
+        
+        let date = DateManager.toDate(from: "", in: .ddMMyyyy)
+        
     }
 }
 
