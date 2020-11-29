@@ -10,6 +10,7 @@
 		6F2360EA25743011004EE4D3 /* HarryPotterLab_ui_kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2360E025743011004EE4D3 /* HarryPotterLab_ui_kit.framework */; };
 		6F2360EF25743011004EE4D3 /* HarryPotterLab_ui_kitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2360EE25743011004EE4D3 /* HarryPotterLab_ui_kitTests.swift */; };
 		6F2360F125743011004EE4D3 /* HarryPotterLab_ui_kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2360E325743011004EE4D3 /* HarryPotterLab_ui_kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F23614D25743274004EE4D3 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23614C25743274004EE4D3 /* DateManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6F2360E925743011004EE4D3 /* HarryPotterLab_ui_kitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterLab_ui_kitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2360EE25743011004EE4D3 /* HarryPotterLab_ui_kitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterLab_ui_kitTests.swift; sourceTree = "<group>"; };
 		6F2360F025743011004EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F23614C25743274004EE4D3 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		6F2360E225743011004EE4D3 /* HarryPotterLab_ui_kit */ = {
 			isa = PBXGroup;
 			children = (
+				6F23614E25743281004EE4D3 /* Managers */,
 				6F2360E325743011004EE4D3 /* HarryPotterLab_ui_kit.h */,
 				6F2360E425743011004EE4D3 /* Info.plist */,
 			);
@@ -84,6 +87,14 @@
 				6F2360F025743011004EE4D3 /* Info.plist */,
 			);
 			path = HarryPotterLab_ui_kitTests;
+			sourceTree = "<group>";
+		};
+		6F23614E25743281004EE4D3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6F23614C25743274004EE4D3 /* DateManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 				TargetAttributes = {
 					6F2360DF25743011004EE4D3 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					6F2360E825743011004EE4D3 = {
 						CreatedOnToolsVersion = 11.1;
@@ -195,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F23614D25743274004EE4D3 /* DateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +353,7 @@
 		6F2360F525743011004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -355,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.harripotter.lab.bosch.miquel.HarryPotterLab-ui-kit";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +378,7 @@
 		6F2360F625743011004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,6 +402,7 @@
 		6F2360F825743011004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HarryPotterLab_ui_kitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +420,7 @@
 		6F2360F925743011004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HarryPotterLab_ui_kitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

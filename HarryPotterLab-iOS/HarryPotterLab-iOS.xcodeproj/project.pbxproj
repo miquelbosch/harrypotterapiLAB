@@ -15,6 +15,10 @@
 		6F23611325743040004EE4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F23611125743040004EE4D3 /* LaunchScreen.storyboard */; };
 		6F23611E25743040004EE4D3 /* HarryPotterLab_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23611D25743040004EE4D3 /* HarryPotterLab_iOSTests.swift */; };
 		6F23612925743040004EE4D3 /* HarryPotterLab_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23612825743040004EE4D3 /* HarryPotterLab_iOSUITests.swift */; };
+		6F23613D25743161004EE4D3 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F23613C25743161004EE4D3 /* NotificationCenter.framework */; };
+		6F23614025743161004EE4D3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23613F25743161004EE4D3 /* TodayViewController.swift */; };
+		6F23614325743161004EE4D3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F23614125743161004EE4D3 /* MainInterface.storyboard */; };
+		6F23614725743161004EE4D3 /* HarryPotterLab_Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F23613A25743161004EE4D3 /* HarryPotterLab_Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +36,28 @@
 			remoteGlobalIDString = 6F2361022574303E004EE4D3;
 			remoteInfo = "HarryPotterLab-iOS";
 		};
+		6F23614525743161004EE4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F2360FB2574303E004EE4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F23613925743161004EE4D3;
+			remoteInfo = HarryPotterLab_Widget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F23614B25743163004EE4D3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6F23614725743161004EE4D3 /* HarryPotterLab_Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6F2361032574303E004EE4D3 /* HarryPotterLab-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HarryPotterLab-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +74,11 @@
 		6F23612425743040004EE4D3 /* HarryPotterLab-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HarryPotterLab-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F23612825743040004EE4D3 /* HarryPotterLab_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterLab_iOSUITests.swift; sourceTree = "<group>"; };
 		6F23612A25743040004EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F23613A25743161004EE4D3 /* HarryPotterLab_Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HarryPotterLab_Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F23613C25743161004EE4D3 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		6F23613F25743161004EE4D3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		6F23614225743161004EE4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		6F23614425743161004EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F23613725743161004EE4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F23613D25743161004EE4D3 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +120,8 @@
 				6F2361052574303E004EE4D3 /* HarryPotterLab-iOS */,
 				6F23611C25743040004EE4D3 /* HarryPotterLab-iOSTests */,
 				6F23612725743040004EE4D3 /* HarryPotterLab-iOSUITests */,
+				6F23613E25743161004EE4D3 /* HarryPotterLab_Widget */,
+				6F23613B25743161004EE4D3 /* Frameworks */,
 				6F2361042574303E004EE4D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +132,7 @@
 				6F2361032574303E004EE4D3 /* HarryPotterLab-iOS.app */,
 				6F23611925743040004EE4D3 /* HarryPotterLab-iOSTests.xctest */,
 				6F23612425743040004EE4D3 /* HarryPotterLab-iOSUITests.xctest */,
+				6F23613A25743161004EE4D3 /* HarryPotterLab_Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +169,24 @@
 			path = "HarryPotterLab-iOSUITests";
 			sourceTree = "<group>";
 		};
+		6F23613B25743161004EE4D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F23613C25743161004EE4D3 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F23613E25743161004EE4D3 /* HarryPotterLab_Widget */ = {
+			isa = PBXGroup;
+			children = (
+				6F23613F25743161004EE4D3 /* TodayViewController.swift */,
+				6F23614125743161004EE4D3 /* MainInterface.storyboard */,
+				6F23614425743161004EE4D3 /* Info.plist */,
+			);
+			path = HarryPotterLab_Widget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +197,12 @@
 				6F2360FF2574303E004EE4D3 /* Sources */,
 				6F2361002574303E004EE4D3 /* Frameworks */,
 				6F2361012574303E004EE4D3 /* Resources */,
+				6F23614B25743163004EE4D3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6F23614625743161004EE4D3 /* PBXTargetDependency */,
 			);
 			name = "HarryPotterLab-iOS";
 			productName = "HarryPotterLab-iOS";
@@ -184,6 +245,23 @@
 			productReference = 6F23612425743040004EE4D3 /* HarryPotterLab-iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6F23613925743161004EE4D3 /* HarryPotterLab_Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F23614825743163004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab_Widget" */;
+			buildPhases = (
+				6F23613625743161004EE4D3 /* Sources */,
+				6F23613725743161004EE4D3 /* Frameworks */,
+				6F23613825743161004EE4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarryPotterLab_Widget;
+			productName = HarryPotterLab_Widget;
+			productReference = 6F23613A25743161004EE4D3 /* HarryPotterLab_Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +283,9 @@
 						CreatedOnToolsVersion = 11.1;
 						TestTargetID = 6F2361022574303E004EE4D3;
 					};
+					6F23613925743161004EE4D3 = {
+						CreatedOnToolsVersion = 11.1;
+					};
 				};
 			};
 			buildConfigurationList = 6F2360FE2574303E004EE4D3 /* Build configuration list for PBXProject "HarryPotterLab-iOS" */;
@@ -223,6 +304,7 @@
 				6F2361022574303E004EE4D3 /* HarryPotterLab-iOS */,
 				6F23611825743040004EE4D3 /* HarryPotterLab-iOSTests */,
 				6F23612325743040004EE4D3 /* HarryPotterLab-iOSUITests */,
+				6F23613925743161004EE4D3 /* HarryPotterLab_Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +331,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F23613825743161004EE4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F23614325743161004EE4D3 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +371,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F23613625743161004EE4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F23614025743161004EE4D3 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +391,11 @@
 			isa = PBXTargetDependency;
 			target = 6F2361022574303E004EE4D3 /* HarryPotterLab-iOS */;
 			targetProxy = 6F23612525743040004EE4D3 /* PBXContainerItemProxy */;
+		};
+		6F23614625743161004EE4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F23613925743161004EE4D3 /* HarryPotterLab_Widget */;
+			targetProxy = 6F23614525743161004EE4D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -311,6 +414,14 @@
 				6F23611225743040004EE4D3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6F23614125743161004EE4D3 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F23614225743161004EE4D3 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,6 +544,7 @@
 		6F23612E25743040004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "HarryPotterLab-iOS/Info.plist";
@@ -450,6 +562,7 @@
 		6F23612F25743040004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "HarryPotterLab-iOS/Info.plist";
@@ -544,6 +657,42 @@
 			};
 			name = Release;
 		};
+		6F23614925743163004EE4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HarryPotterLab_Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harripotter.lab.bosch.miquel.HarryPotterLab-iOS.HarryPotterLab-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F23614A25743163004EE4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HarryPotterLab_Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harripotter.lab.bosch.miquel.HarryPotterLab-iOS.HarryPotterLab-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -579,6 +728,15 @@
 			buildConfigurations = (
 				6F23613425743040004EE4D3 /* Debug */,
 				6F23613525743040004EE4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F23614825743163004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab_Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F23614925743163004EE4D3 /* Debug */,
+				6F23614A25743163004EE4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
