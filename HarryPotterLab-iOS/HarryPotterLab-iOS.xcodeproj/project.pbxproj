@@ -19,6 +19,10 @@
 		6F23614025743161004EE4D3 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23613F25743161004EE4D3 /* TodayViewController.swift */; };
 		6F23614325743161004EE4D3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F23614125743161004EE4D3 /* MainInterface.storyboard */; };
 		6F23614725743161004EE4D3 /* HarryPotterLab_Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F23613A25743161004EE4D3 /* HarryPotterLab_Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6FB56DC1FBA2C7E9644002CA /* Pods_HarryPotterLab_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC641B2F5E602A95D57CB66 /* Pods_HarryPotterLab_iOS.framework */; };
+		7918360F78F220FD267A2BE3 /* Pods_HarryPotterLab_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2039658A812DF12C3C626C5 /* Pods_HarryPotterLab_iOSUITests.framework */; };
+		8CEC0D300ACFFFEBAD98CA55 /* Pods_HarryPotterLab_Widget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9656C63BB143095E7A8868D0 /* Pods_HarryPotterLab_Widget.framework */; };
+		FCCC25C316CD376237C5522E /* Pods_HarryPotterLab_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		040708DC0CBD2CF34F174894 /* Pods-HarryPotterLab-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E509A2FAD5D0430D989BE4F /* Pods-HarryPotterLab-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19811F7B8FFB9FEDFE194F94 /* Pods-HarryPotterLab-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F2A6ADC05ABB96D4B548BD2 /* Pods-HarryPotterLab-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		586D48309408A1545A0234C0 /* Pods-HarryPotterLab-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F2361032574303E004EE4D3 /* HarryPotterLab-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HarryPotterLab-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2361062574303E004EE4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F2361082574303E004EE4D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +88,13 @@
 		6F23613F25743161004EE4D3 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		6F23614225743161004EE4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		6F23614425743161004EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9656C63BB143095E7A8868D0 /* Pods_HarryPotterLab_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D44E7F4A65D456A4B87C8E8 /* Pods-HarryPotterLab_Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab_Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab_Widget/Pods-HarryPotterLab_Widget.release.xcconfig"; sourceTree = "<group>"; };
+		A2039658A812DF12C3C626C5 /* Pods_HarryPotterLab_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64E976F674136C244A26A2A /* Pods-HarryPotterLab_Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab_Widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab_Widget/Pods-HarryPotterLab_Widget.debug.xcconfig"; sourceTree = "<group>"; };
+		F3E1B65D1A2F79C7CA6E833A /* Pods-HarryPotterLab-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FBC641B2F5E602A95D57CB66 /* Pods_HarryPotterLab_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB56DC1FBA2C7E9644002CA /* Pods_HarryPotterLab_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCC25C316CD376237C5522E /* Pods_HarryPotterLab_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7918360F78F220FD267A2BE3 /* Pods_HarryPotterLab_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F23613D25743161004EE4D3 /* NotificationCenter.framework in Frameworks */,
+				8CEC0D300ACFFFEBAD98CA55 /* Pods_HarryPotterLab_Widget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +143,7 @@
 				6F23613E25743161004EE4D3 /* HarryPotterLab_Widget */,
 				6F23613B25743161004EE4D3 /* Frameworks */,
 				6F2361042574303E004EE4D3 /* Products */,
+				CD21B8F0614858A144ABFE6D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +194,10 @@
 			isa = PBXGroup;
 			children = (
 				6F23613C25743161004EE4D3 /* NotificationCenter.framework */,
+				FBC641B2F5E602A95D57CB66 /* Pods_HarryPotterLab_iOS.framework */,
+				77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */,
+				A2039658A812DF12C3C626C5 /* Pods_HarryPotterLab_iOSUITests.framework */,
+				9656C63BB143095E7A8868D0 /* Pods_HarryPotterLab_Widget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,6 +212,21 @@
 			path = HarryPotterLab_Widget;
 			sourceTree = "<group>";
 		};
+		CD21B8F0614858A144ABFE6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3E1B65D1A2F79C7CA6E833A /* Pods-HarryPotterLab-iOS.debug.xcconfig */,
+				3F2A6ADC05ABB96D4B548BD2 /* Pods-HarryPotterLab-iOS.release.xcconfig */,
+				040708DC0CBD2CF34F174894 /* Pods-HarryPotterLab-iOSTests.debug.xcconfig */,
+				586D48309408A1545A0234C0 /* Pods-HarryPotterLab-iOSTests.release.xcconfig */,
+				0E509A2FAD5D0430D989BE4F /* Pods-HarryPotterLab-iOSUITests.debug.xcconfig */,
+				19811F7B8FFB9FEDFE194F94 /* Pods-HarryPotterLab-iOSUITests.release.xcconfig */,
+				A64E976F674136C244A26A2A /* Pods-HarryPotterLab_Widget.debug.xcconfig */,
+				9D44E7F4A65D456A4B87C8E8 /* Pods-HarryPotterLab_Widget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,10 +234,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23612D25743040004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab-iOS" */;
 			buildPhases = (
+				50D5473F0384CF01A90D55F7 /* [CP] Check Pods Manifest.lock */,
 				6F2360FF2574303E004EE4D3 /* Sources */,
 				6F2361002574303E004EE4D3 /* Frameworks */,
 				6F2361012574303E004EE4D3 /* Resources */,
 				6F23614B25743163004EE4D3 /* Embed App Extensions */,
+				38B10A7A0DAAF8D3991C8591 /* [CP] Embed Pods Frameworks */,
+				9367398A5F439298F32BBAC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23613025743040004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab-iOSTests" */;
 			buildPhases = (
+				D9DA64CED6C4DADD2A3A2FD0 /* [CP] Check Pods Manifest.lock */,
 				6F23611525743040004EE4D3 /* Sources */,
 				6F23611625743040004EE4D3 /* Frameworks */,
 				6F23611725743040004EE4D3 /* Resources */,
+				9789EACEA12A0B519C1E56BB /* [CP] Embed Pods Frameworks */,
+				B913ED41AABED3C5319EC91A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23613325743040004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab-iOSUITests" */;
 			buildPhases = (
+				DF052E57EC2BCC4559D7388A /* [CP] Check Pods Manifest.lock */,
 				6F23612025743040004EE4D3 /* Sources */,
 				6F23612125743040004EE4D3 /* Frameworks */,
 				6F23612225743040004EE4D3 /* Resources */,
+				899D6F05D2EBC86AB9549F19 /* [CP] Embed Pods Frameworks */,
+				4F43261CABE2CB8AD9BEA5D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23614825743163004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab_Widget" */;
 			buildPhases = (
+				3A0037F77CDEC77EF98CDEA9 /* [CP] Check Pods Manifest.lock */,
 				6F23613625743161004EE4D3 /* Sources */,
 				6F23613725743161004EE4D3 /* Frameworks */,
 				6F23613825743161004EE4D3 /* Resources */,
+				48A635AFE02C046A9C5F8005 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -343,6 +394,230 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B10A7A0DAAF8D3991C8591 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A0037F77CDEC77EF98CDEA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab_Widget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A635AFE02C046A9C5F8005 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab_Widget/Pods-HarryPotterLab_Widget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F43261CABE2CB8AD9BEA5D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50D5473F0384CF01A90D55F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		899D6F05D2EBC86AB9549F19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9367398A5F439298F32BBAC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9789EACEA12A0B519C1E56BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B913ED41AABED3C5319EC91A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DA64CED6C4DADD2A3A2FD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab-iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF052E57EC2BCC4559D7388A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab-iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F2360FF2574303E004EE4D3 /* Sources */ = {
@@ -543,6 +818,7 @@
 		};
 		6F23612E25743040004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E1B65D1A2F79C7CA6E833A /* Pods-HarryPotterLab-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -561,6 +837,7 @@
 		};
 		6F23612F25743040004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2A6ADC05ABB96D4B548BD2 /* Pods-HarryPotterLab-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -579,6 +856,7 @@
 		};
 		6F23613125743040004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040708DC0CBD2CF34F174894 /* Pods-HarryPotterLab-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -600,6 +878,7 @@
 		};
 		6F23613225743040004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586D48309408A1545A0234C0 /* Pods-HarryPotterLab-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -621,6 +900,7 @@
 		};
 		6F23613425743040004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E509A2FAD5D0430D989BE4F /* Pods-HarryPotterLab-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -640,6 +920,7 @@
 		};
 		6F23613525743040004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19811F7B8FFB9FEDFE194F94 /* Pods-HarryPotterLab-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -659,6 +940,7 @@
 		};
 		6F23614925743163004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64E976F674136C244A26A2A /* Pods-HarryPotterLab_Widget.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HarryPotterLab_Widget/Info.plist;
@@ -677,6 +959,7 @@
 		};
 		6F23614A25743163004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D44E7F4A65D456A4B87C8E8 /* Pods-HarryPotterLab_Widget.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HarryPotterLab_Widget/Info.plist;
