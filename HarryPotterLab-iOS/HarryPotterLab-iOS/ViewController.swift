@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .red
         
-        let date = DateManager.toDate(from: "", in: .ddMMyyyy)
+        let date = DateManager.toDate(from: "12/12/2021", in: .ddMMyyyy)
         
     }
 }
