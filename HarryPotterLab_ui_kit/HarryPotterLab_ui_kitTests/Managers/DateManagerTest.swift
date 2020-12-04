@@ -33,4 +33,13 @@ class DateManagerTest: XCTestCase {
         let date = DateManager.toDate(from: "12/12/2021", in: .ddMMyyyy)
         XCTAssertEqual(date, self.date)
     }
+    
+    func test_convert_string_To_Date_incorrect_string() {
+        
+        let today = Date()
+        let date = DateManager.toDate(from: "$", in: .ddMMyyyy)
+        let todayTimeInterval = today.timeIntervalSinceReferenceDate
+        let dateTimeInterval = date.timeIntervalSinceReferenceDate
+        XCTAssertEqual(todayTimeInterval, dateTimeInterval, accuracy: 0.001)
+    }
 }

@@ -19,6 +19,6 @@ public final class DateManager {
         
         let formatter = DateFormatter()
         formatter.dateFormat = format.rawValue
-        return formatter.date(from: date)!
+        return formatter.date(from: date) ?? Date()
     }
 }
