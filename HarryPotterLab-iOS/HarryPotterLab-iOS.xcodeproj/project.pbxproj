@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F083BA3258D180800797C5E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BA2258D180800797C5E /* AppCoordinator.swift */; };
+		6F083BAC258D1BCE00797C5E /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BAA258D1BCE00797C5E /* CharactersViewController.swift */; };
+		6F083BAD258D1BCE00797C5E /* CharactersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F083BAB258D1BCE00797C5E /* CharactersViewController.xib */; };
+		6F083BAF258D1BF600797C5E /* CharactersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BAE258D1BF600797C5E /* CharactersCoordinator.swift */; };
+		6F083BB2258D1CB000797C5E /* WebServiceServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB1258D1CB000797C5E /* WebServiceServiceLocator.swift */; };
+		6F083BB4258D1CC200797C5E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB3258D1CC200797C5E /* WebService.swift */; };
+		6F083BB6258D1DF700797C5E /* WebServiceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB5258D1DF700797C5E /* WebServiceEndpoint.swift */; };
+		6F083BB8258D1E0A00797C5E /* WebServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB7258D1E0A00797C5E /* WebServiceError.swift */; };
+		6F083BB9258D2FA800797C5E /* HarryPotterLab_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23611D25743040004EE4D3 /* HarryPotterLab_iOSTests.swift */; };
 		6F2361072574303E004EE4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2361062574303E004EE4D3 /* AppDelegate.swift */; };
 		6F2361092574303E004EE4D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2361082574303E004EE4D3 /* SceneDelegate.swift */; };
 		6F23610B2574303E004EE4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23610A2574303E004EE4D3 /* ViewController.swift */; };
@@ -79,6 +88,14 @@
 		19811F7B8FFB9FEDFE194F94 /* Pods-HarryPotterLab-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3F2A6ADC05ABB96D4B548BD2 /* Pods-HarryPotterLab-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		586D48309408A1545A0234C0 /* Pods-HarryPotterLab-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F083BA2258D180800797C5E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		6F083BAA258D1BCE00797C5E /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		6F083BAB258D1BCE00797C5E /* CharactersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersViewController.xib; sourceTree = "<group>"; };
+		6F083BAE258D1BF600797C5E /* CharactersCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCoordinator.swift; sourceTree = "<group>"; };
+		6F083BB1258D1CB000797C5E /* WebServiceServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceServiceLocator.swift; sourceTree = "<group>"; };
+		6F083BB3258D1CC200797C5E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		6F083BB5258D1DF700797C5E /* WebServiceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceEndpoint.swift; sourceTree = "<group>"; };
+		6F083BB7258D1E0A00797C5E /* WebServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceError.swift; sourceTree = "<group>"; };
 		6F2361032574303E004EE4D3 /* HarryPotterLab-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HarryPotterLab-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2361062574303E004EE4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F2361082574303E004EE4D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +160,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F083BA0258D17D200797C5E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BA2258D180800797C5E /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6F083BA1258D17DF00797C5E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BA4258D1A2300797C5E /* Features */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6F083BA4258D1A2300797C5E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BA5258D1A3C00797C5E /* Characters */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		6F083BA5258D1A3C00797C5E /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BA9258D1ACA00797C5E /* Models */,
+				6F083BA8258D1AC300797C5E /* ViewModels */,
+				6F083BA7258D1A7000797C5E /* ViewControllers */,
+				6F083BA6258D1A6200797C5E /* Coordinator */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		6F083BA6258D1A6200797C5E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BAE258D1BF600797C5E /* CharactersCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6F083BA7258D1A7000797C5E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BAA258D1BCE00797C5E /* CharactersViewController.swift */,
+				6F083BAB258D1BCE00797C5E /* CharactersViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6F083BA8258D1AC300797C5E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6F083BA9258D1ACA00797C5E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F083BB0258D1C6500797C5E /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BB1258D1CB000797C5E /* WebServiceServiceLocator.swift */,
+				6F083BB3258D1CC200797C5E /* WebService.swift */,
+				6F083BB5258D1DF700797C5E /* WebServiceEndpoint.swift */,
+				6F083BB7258D1E0A00797C5E /* WebServiceError.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
 		6F2360FA2574303E004EE4D3 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +267,9 @@
 				6F2361062574303E004EE4D3 /* AppDelegate.swift */,
 				6F2361082574303E004EE4D3 /* SceneDelegate.swift */,
 				6F23610A2574303E004EE4D3 /* ViewController.swift */,
+				6F083BA0258D17D200797C5E /* Coordinator */,
+				6F083BA1258D17DF00797C5E /* App */,
+				6F083BB0258D1C6500797C5E /* WebService */,
 				6F23610F25743040004EE4D3 /* Assets.xcassets */,
 				6F23611125743040004EE4D3 /* LaunchScreen.storyboard */,
 				6F23611425743040004EE4D3 /* Info.plist */,
@@ -375,6 +472,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F083BAD258D1BCE00797C5E /* CharactersViewController.xib in Resources */,
 				6F23611325743040004EE4D3 /* LaunchScreen.storyboard in Resources */,
 				6F23611025743040004EE4D3 /* Assets.xcassets in Resources */,
 			);
@@ -633,9 +731,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F083BA3258D180800797C5E /* AppCoordinator.swift in Sources */,
 				6F23610B2574303E004EE4D3 /* ViewController.swift in Sources */,
+				6F083BB4258D1CC200797C5E /* WebService.swift in Sources */,
+				6F083BB9258D2FA800797C5E /* HarryPotterLab_iOSTests.swift in Sources */,
 				6F2361072574303E004EE4D3 /* AppDelegate.swift in Sources */,
+				6F083BAF258D1BF600797C5E /* CharactersCoordinator.swift in Sources */,
+				6F083BB8258D1E0A00797C5E /* WebServiceError.swift in Sources */,
+				6F083BAC258D1BCE00797C5E /* CharactersViewController.swift in Sources */,
+				6F083BB2258D1CB000797C5E /* WebServiceServiceLocator.swift in Sources */,
 				6F2361092574303E004EE4D3 /* SceneDelegate.swift in Sources */,
+				6F083BB6258D1DF700797C5E /* WebServiceEndpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
