@@ -12,7 +12,7 @@ public final class WebService {
     
     // MARK: - Properties
     private let session: URLSession
-    private let base = URL(string: "http://hp-api.herokuapp.com/")!
+    private let base = URL(string: "https://hp-api.herokuapp.com/")!
     private let decoder = JSONDecoder()
     
     // MARK: - Variables

@@ -9,7 +9,7 @@
 import Foundation
 
 protocol CharactersRepositoryProtocol {
-    func characters(completion completed: @escaping (Result<CharactersResponse, WebServiceError>) -> Void)
+    func characters(completion completed: @escaping (Result<[Character], WebServiceError>) -> Void)
 }
 
 
@@ -21,15 +21,15 @@ final class CharactersRepository: CharactersRepositoryProtocol {
         self.webService = webService
     }
     
-    func characters(completion completed: @escaping (Result<CharactersResponse, WebServiceError>) -> Void) {
+    func characters(completion completed: @escaping (Result<[Character], WebServiceError>) -> Void) {
         
-        webService.load(type: CharactersResponse.self,
+        webService.load(type: [Character].self,
                         endpoint: .characters) { result in
                             
                             DispatchQueue.main.async {
                                 switch result {
                                 case .success(let characters):
-                                    let film = CharactersBinding.bind(characters)
+                                    let film = characters
                                     completed(.success(characters))
                                 case .failure(let error):
                                     completed(.failure(error))

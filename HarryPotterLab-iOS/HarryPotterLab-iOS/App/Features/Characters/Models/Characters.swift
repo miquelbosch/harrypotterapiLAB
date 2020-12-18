@@ -14,7 +14,7 @@ import Foundation
 
 struct Character: Codable {
     let name: String
-    let age: Int
+    //let age: Int
 }
 
 

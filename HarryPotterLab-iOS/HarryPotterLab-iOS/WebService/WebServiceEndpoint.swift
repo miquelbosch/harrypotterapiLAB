@@ -47,10 +47,11 @@ extension WebServiceEndpoint {
         
         let url = base.appendingPathComponent(path)
         
-        let parameters = self.parameters
+        var newParameters = self.parameters
+        parameters.forEach { newParameters.updateValue($1, forKey: $0) }
         
         var components = URLComponents(url: url, resolvingAgainstBaseURL: false)!
-        components.queryItems = parameters.map(URLQueryItem.init)
+        components.queryItems = newParameters.map(URLQueryItem.init)
         
         var request = URLRequest(url: components.url!)
         request.httpMethod = method.rawValue

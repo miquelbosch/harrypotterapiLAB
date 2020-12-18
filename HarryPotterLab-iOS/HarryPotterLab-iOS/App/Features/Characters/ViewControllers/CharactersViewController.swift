@@ -10,7 +10,7 @@ import UIKit
 
 protocol CharacterView: class {
     var title: String? { get set }
-    func setLoading()
+    func setLoading(isLoading: Bool)
     func update(characters: [Character])
 }
 
@@ -21,7 +21,24 @@ protocol CharacterViewModelProtocol: class {
 
 class CharactersViewController: UIViewController {
     
+    @IBOutlet weak var activityIndicatorContainerView: UIView!
+    
     let viewModel: CharacterViewModelProtocol
+    
+    
+    private lazy var activityIndicator: UIActivityIndicatorView = {
+        let frame = CGRect(x: 0,
+                           y: 0,
+                           width: 60,
+                           height: 40)
+        let activityIndicator = UIActivityIndicatorView(frame: frame)
+        activityIndicator.color = #colorLiteral(red: 0.1921568627, green: 0.631372549, blue: 0.5411764706, alpha: 1)
+        activityIndicator.tintColor = #colorLiteral(red: 0.1921568627, green: 0.631372549, blue: 0.5411764706, alpha: 1)
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.startAnimating()
+        activityIndicator.backgroundColor = .green
+        return activityIndicator
+    }()
     
     init(viewModel: CharacterViewModelProtocol) {
         
@@ -37,14 +54,23 @@ class CharactersViewController: UIViewController {
         super.viewDidLoad()
         
         viewModel.view = self
+        
+        activityIndicatorContainerView.addSubview(activityIndicator)
+        
+        activityIndicator.anchor(top: activityIndicatorContainerView.topAnchor,
+                                 left: activityIndicatorContainerView.leftAnchor,
+                                 bottom: activityIndicatorContainerView.bottomAnchor,
+                                 right: activityIndicatorContainerView.rightAnchor)
+        
+        viewModel.fetchCharacters()
         view.backgroundColor = .green
     }
 }
 
 extension CharactersViewController: CharacterView {
     
-    func setLoading() {
-        
+    func setLoading(isLoading: Bool) {
+        _ = isLoading ? activityIndicator.startAnimating() : activityIndicator.stopAnimating()
     }
     
     func update(characters: [Character]) {
