@@ -12,7 +12,7 @@ public final class WebService {
     
     // MARK: - Properties
     private let session: URLSession
-    private let base = URL(string: "")!
+    private let base = URL(string: "http://hp-api.herokuapp.com/")!
     private let decoder = JSONDecoder()
     
     // MARK: - Variables
@@ -23,7 +23,7 @@ public final class WebService {
         self.session = session
     }
     
-    private func load<T>(type: T.Type,
+    func load<T>(type: T.Type,
                          endpoint: WebServiceEndpoint,
                          completion completed: @escaping(Result<T, WebServiceError>) -> Void) where T: Decodable {
         

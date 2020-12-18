@@ -7,6 +7,7 @@
 //
 
 import XCTest
+
 @testable import HarryPotterLab_iOS
 
 class HarryPotterLab_iOSTests: XCTestCase {

@@ -15,4 +15,6 @@ internal final class AppCoordinator {
     private(set) lazy var navigationController: UINavigationController = {
         return UINavigationController()
     }()
+    private(set) lazy var webServiceLocator: WebServiceServiceLocator = WebServiceServiceLocator()
+    private(set) lazy var charactersCoordinator: CharactersCoordinator = CharactersCoordinator(webService: webServiceLocator)
 }

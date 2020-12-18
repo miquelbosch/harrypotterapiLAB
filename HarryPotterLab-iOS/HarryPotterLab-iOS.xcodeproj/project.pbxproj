@@ -12,10 +12,13 @@
 		6F083BAD258D1BCE00797C5E /* CharactersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F083BAB258D1BCE00797C5E /* CharactersViewController.xib */; };
 		6F083BAF258D1BF600797C5E /* CharactersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BAE258D1BF600797C5E /* CharactersCoordinator.swift */; };
 		6F083BB2258D1CB000797C5E /* WebServiceServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB1258D1CB000797C5E /* WebServiceServiceLocator.swift */; };
-		6F083BB4258D1CC200797C5E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB3258D1CC200797C5E /* WebService.swift */; };
 		6F083BB6258D1DF700797C5E /* WebServiceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB5258D1DF700797C5E /* WebServiceEndpoint.swift */; };
 		6F083BB8258D1E0A00797C5E /* WebServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB7258D1E0A00797C5E /* WebServiceError.swift */; };
-		6F083BB9258D2FA800797C5E /* HarryPotterLab_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23611D25743040004EE4D3 /* HarryPotterLab_iOSTests.swift */; };
+		6F083BD2258D369700797C5E /* WebServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BD1258D369700797C5E /* WebServiceTest.swift */; };
+		6F083BD5258D374700797C5E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BB3258D1CC200797C5E /* WebService.swift */; };
+		6F083BD7258D423B00797C5E /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BD6258D423B00797C5E /* CharactersViewModel.swift */; };
+		6F083BD9258D451F00797C5E /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BD8258D451F00797C5E /* Characters.swift */; };
+		6F083BDC258D551E00797C5E /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F083BDB258D551E00797C5E /* CharactersRepository.swift */; };
 		6F2361072574303E004EE4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2361062574303E004EE4D3 /* AppDelegate.swift */; };
 		6F2361092574303E004EE4D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2361082574303E004EE4D3 /* SceneDelegate.swift */; };
 		6F23610B2574303E004EE4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F23610A2574303E004EE4D3 /* ViewController.swift */; };
@@ -29,8 +32,6 @@
 		6F23614725743161004EE4D3 /* HarryPotterLab_Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F23613A25743161004EE4D3 /* HarryPotterLab_Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6F23615025743553004EE4D3 /* HarryPotterLab_ui_kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */; };
 		6F23615125743553004EE4D3 /* HarryPotterLab_ui_kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7918360F78F220FD267A2BE3 /* Pods_HarryPotterLab_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2039658A812DF12C3C626C5 /* Pods_HarryPotterLab_iOSUITests.framework */; };
-		FCCC25C316CD376237C5522E /* Pods_HarryPotterLab_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,11 +84,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		040708DC0CBD2CF34F174894 /* Pods-HarryPotterLab-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0E509A2FAD5D0430D989BE4F /* Pods-HarryPotterLab-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		19811F7B8FFB9FEDFE194F94 /* Pods-HarryPotterLab-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3F2A6ADC05ABB96D4B548BD2 /* Pods-HarryPotterLab-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		586D48309408A1545A0234C0 /* Pods-HarryPotterLab-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		6F083BA2258D180800797C5E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		6F083BAA258D1BCE00797C5E /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		6F083BAB258D1BCE00797C5E /* CharactersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharactersViewController.xib; sourceTree = "<group>"; };
@@ -96,6 +92,10 @@
 		6F083BB3258D1CC200797C5E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		6F083BB5258D1DF700797C5E /* WebServiceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceEndpoint.swift; sourceTree = "<group>"; };
 		6F083BB7258D1E0A00797C5E /* WebServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceError.swift; sourceTree = "<group>"; };
+		6F083BD1258D369700797C5E /* WebServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebServiceTest.swift; path = ../../../WebServiceTest.swift; sourceTree = "<group>"; };
+		6F083BD6258D423B00797C5E /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+		6F083BD8258D451F00797C5E /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		6F083BDB258D551E00797C5E /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
 		6F2361032574303E004EE4D3 /* HarryPotterLab-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HarryPotterLab-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2361062574303E004EE4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F2361082574303E004EE4D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,13 +115,6 @@
 		6F23614225743161004EE4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		6F23614425743161004EE4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HarryPotterLab_ui_kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9656C63BB143095E7A8868D0 /* Pods_HarryPotterLab_Widget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_Widget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D44E7F4A65D456A4B87C8E8 /* Pods-HarryPotterLab_Widget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab_Widget.release.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab_Widget/Pods-HarryPotterLab_Widget.release.xcconfig"; sourceTree = "<group>"; };
-		A2039658A812DF12C3C626C5 /* Pods_HarryPotterLab_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A64E976F674136C244A26A2A /* Pods-HarryPotterLab_Widget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab_Widget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab_Widget/Pods-HarryPotterLab_Widget.debug.xcconfig"; sourceTree = "<group>"; };
-		F3E1B65D1A2F79C7CA6E833A /* Pods-HarryPotterLab-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarryPotterLab-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		FBC641B2F5E602A95D57CB66 /* Pods_HarryPotterLab_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarryPotterLab_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +130,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCCC25C316CD376237C5522E /* Pods_HarryPotterLab_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +137,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7918360F78F220FD267A2BE3 /* Pods_HarryPotterLab_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +178,7 @@
 		6F083BA5258D1A3C00797C5E /* Characters */ = {
 			isa = PBXGroup;
 			children = (
+				6F083BDA258D54FF00797C5E /* Repositories */,
 				6F083BA9258D1ACA00797C5E /* Models */,
 				6F083BA8258D1AC300797C5E /* ViewModels */,
 				6F083BA7258D1A7000797C5E /* ViewControllers */,
@@ -215,6 +207,7 @@
 		6F083BA8258D1AC300797C5E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				6F083BD6258D423B00797C5E /* CharactersViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -222,6 +215,7 @@
 		6F083BA9258D1ACA00797C5E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				6F083BD8258D451F00797C5E /* Characters.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -237,6 +231,22 @@
 			path = WebService;
 			sourceTree = "<group>";
 		};
+		6F083BD0258D366000797C5E /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BD1258D369700797C5E /* WebServiceTest.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		6F083BDA258D54FF00797C5E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6F083BDB258D551E00797C5E /* CharactersRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 		6F2360FA2574303E004EE4D3 = {
 			isa = PBXGroup;
 			children = (
@@ -246,7 +256,6 @@
 				6F23613E25743161004EE4D3 /* HarryPotterLab_Widget */,
 				6F23613B25743161004EE4D3 /* Frameworks */,
 				6F2361042574303E004EE4D3 /* Products */,
-				CD21B8F0614858A144ABFE6D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -280,6 +289,7 @@
 		6F23611C25743040004EE4D3 /* HarryPotterLab-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				6F083BD0258D366000797C5E /* WebService */,
 				6F23611D25743040004EE4D3 /* HarryPotterLab_iOSTests.swift */,
 				6F23611F25743040004EE4D3 /* Info.plist */,
 			);
@@ -300,10 +310,6 @@
 			children = (
 				6F23614F25743553004EE4D3 /* HarryPotterLab_ui_kit.framework */,
 				6F23613C25743161004EE4D3 /* NotificationCenter.framework */,
-				FBC641B2F5E602A95D57CB66 /* Pods_HarryPotterLab_iOS.framework */,
-				77ED7BD8D4130FE5E1239C33 /* Pods_HarryPotterLab_iOSTests.framework */,
-				A2039658A812DF12C3C626C5 /* Pods_HarryPotterLab_iOSUITests.framework */,
-				9656C63BB143095E7A8868D0 /* Pods_HarryPotterLab_Widget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,21 +324,6 @@
 			path = HarryPotterLab_Widget;
 			sourceTree = "<group>";
 		};
-		CD21B8F0614858A144ABFE6D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F3E1B65D1A2F79C7CA6E833A /* Pods-HarryPotterLab-iOS.debug.xcconfig */,
-				3F2A6ADC05ABB96D4B548BD2 /* Pods-HarryPotterLab-iOS.release.xcconfig */,
-				040708DC0CBD2CF34F174894 /* Pods-HarryPotterLab-iOSTests.debug.xcconfig */,
-				586D48309408A1545A0234C0 /* Pods-HarryPotterLab-iOSTests.release.xcconfig */,
-				0E509A2FAD5D0430D989BE4F /* Pods-HarryPotterLab-iOSUITests.debug.xcconfig */,
-				19811F7B8FFB9FEDFE194F94 /* Pods-HarryPotterLab-iOSUITests.release.xcconfig */,
-				A64E976F674136C244A26A2A /* Pods-HarryPotterLab_Widget.debug.xcconfig */,
-				9D44E7F4A65D456A4B87C8E8 /* Pods-HarryPotterLab_Widget.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,13 +331,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23612D25743040004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab-iOS" */;
 			buildPhases = (
-				50D5473F0384CF01A90D55F7 /* [CP] Check Pods Manifest.lock */,
 				6F2360FF2574303E004EE4D3 /* Sources */,
 				6F2361002574303E004EE4D3 /* Frameworks */,
 				6F2361012574303E004EE4D3 /* Resources */,
 				6F23614B25743163004EE4D3 /* Embed App Extensions */,
-				38B10A7A0DAAF8D3991C8591 /* [CP] Embed Pods Frameworks */,
-				9367398A5F439298F32BBAC0 /* [CP] Copy Pods Resources */,
 				6F23615225743553004EE4D3 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -363,12 +351,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23613025743040004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab-iOSTests" */;
 			buildPhases = (
-				D9DA64CED6C4DADD2A3A2FD0 /* [CP] Check Pods Manifest.lock */,
 				6F23611525743040004EE4D3 /* Sources */,
 				6F23611625743040004EE4D3 /* Frameworks */,
 				6F23611725743040004EE4D3 /* Resources */,
-				9789EACEA12A0B519C1E56BB /* [CP] Embed Pods Frameworks */,
-				B913ED41AABED3C5319EC91A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,12 +369,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23613325743040004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab-iOSUITests" */;
 			buildPhases = (
-				DF052E57EC2BCC4559D7388A /* [CP] Check Pods Manifest.lock */,
 				6F23612025743040004EE4D3 /* Sources */,
 				6F23612125743040004EE4D3 /* Frameworks */,
 				6F23612225743040004EE4D3 /* Resources */,
-				899D6F05D2EBC86AB9549F19 /* [CP] Embed Pods Frameworks */,
-				4F43261CABE2CB8AD9BEA5D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -405,11 +387,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F23614825743163004EE4D3 /* Build configuration list for PBXNativeTarget "HarryPotterLab_Widget" */;
 			buildPhases = (
-				3A0037F77CDEC77EF98CDEA9 /* [CP] Check Pods Manifest.lock */,
 				6F23613625743161004EE4D3 /* Sources */,
 				6F23613725743161004EE4D3 /* Frameworks */,
 				6F23613825743161004EE4D3 /* Resources */,
-				48A635AFE02C046A9C5F8005 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -502,246 +482,24 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		38B10A7A0DAAF8D3991C8591 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A0037F77CDEC77EF98CDEA9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab_Widget-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		48A635AFE02C046A9C5F8005 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab_Widget/Pods-HarryPotterLab_Widget-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F43261CABE2CB8AD9BEA5D6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		50D5473F0384CF01A90D55F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		899D6F05D2EBC86AB9549F19 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSUITests/Pods-HarryPotterLab-iOSUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9367398A5F439298F32BBAC0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOS/Pods-HarryPotterLab-iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9789EACEA12A0B519C1E56BB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B913ED41AABED3C5319EC91A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HarryPotterLab-iOSTests/Pods-HarryPotterLab-iOSTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D9DA64CED6C4DADD2A3A2FD0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab-iOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DF052E57EC2BCC4559D7388A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HarryPotterLab-iOSUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		6F2360FF2574303E004EE4D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F083BD7258D423B00797C5E /* CharactersViewModel.swift in Sources */,
 				6F083BA3258D180800797C5E /* AppCoordinator.swift in Sources */,
 				6F23610B2574303E004EE4D3 /* ViewController.swift in Sources */,
-				6F083BB4258D1CC200797C5E /* WebService.swift in Sources */,
-				6F083BB9258D2FA800797C5E /* HarryPotterLab_iOSTests.swift in Sources */,
 				6F2361072574303E004EE4D3 /* AppDelegate.swift in Sources */,
 				6F083BAF258D1BF600797C5E /* CharactersCoordinator.swift in Sources */,
 				6F083BB8258D1E0A00797C5E /* WebServiceError.swift in Sources */,
 				6F083BAC258D1BCE00797C5E /* CharactersViewController.swift in Sources */,
+				6F083BD9258D451F00797C5E /* Characters.swift in Sources */,
 				6F083BB2258D1CB000797C5E /* WebServiceServiceLocator.swift in Sources */,
 				6F2361092574303E004EE4D3 /* SceneDelegate.swift in Sources */,
+				6F083BD5258D374700797C5E /* WebService.swift in Sources */,
 				6F083BB6258D1DF700797C5E /* WebServiceEndpoint.swift in Sources */,
+				6F083BDC258D551E00797C5E /* CharactersRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -749,6 +507,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F083BD2258D369700797C5E /* WebServiceTest.swift in Sources */,
 				6F23611E25743040004EE4D3 /* HarryPotterLab_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -925,7 +684,6 @@
 		};
 		6F23612E25743040004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3E1B65D1A2F79C7CA6E833A /* Pods-HarryPotterLab-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -944,7 +702,6 @@
 		};
 		6F23612F25743040004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F2A6ADC05ABB96D4B548BD2 /* Pods-HarryPotterLab-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -963,7 +720,6 @@
 		};
 		6F23613125743040004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 040708DC0CBD2CF34F174894 /* Pods-HarryPotterLab-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -985,7 +741,6 @@
 		};
 		6F23613225743040004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 586D48309408A1545A0234C0 /* Pods-HarryPotterLab-iOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1007,7 +762,6 @@
 		};
 		6F23613425743040004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E509A2FAD5D0430D989BE4F /* Pods-HarryPotterLab-iOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1027,7 +781,6 @@
 		};
 		6F23613525743040004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19811F7B8FFB9FEDFE194F94 /* Pods-HarryPotterLab-iOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1047,7 +800,6 @@
 		};
 		6F23614925743163004EE4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A64E976F674136C244A26A2A /* Pods-HarryPotterLab_Widget.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HarryPotterLab_Widget/Info.plist;
@@ -1066,7 +818,6 @@
 		};
 		6F23614A25743163004EE4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D44E7F4A65D456A4B87C8E8 /* Pods-HarryPotterLab_Widget.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HarryPotterLab_Widget/Info.plist;

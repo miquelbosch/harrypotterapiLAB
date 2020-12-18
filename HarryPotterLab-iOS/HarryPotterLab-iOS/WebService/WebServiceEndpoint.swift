@@ -29,7 +29,7 @@ extension WebServiceEndpoint {
     public var path: String {
         switch self {
         case .characters:
-            return ""
+            return "api/characters"
         }
     }
     
@@ -45,7 +45,7 @@ extension WebServiceEndpoint {
     
     public func request(base: URL, parameters: [String: String]) -> URLRequest {
         
-        let url = base.appendingPathComponent("jsjsj")
+        let url = base.appendingPathComponent(path)
         
         let parameters = self.parameters
         
